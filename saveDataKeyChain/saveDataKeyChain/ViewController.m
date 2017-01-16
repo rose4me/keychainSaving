@@ -42,6 +42,8 @@
     
     self.BalaName.text = self.uName.text;
     self.rajanName.text = self.pwd.text;
+    self.sName.text = self.uName.text;
+    self.kName.text = self.pwd.text;
     
     self.uNameLable.text=[self.key objectForKey:(__bridge id)kSecAttrAccount];
     self.uPwdLable.text=[self.key objectForKey:(__bridge id)kSecValueData];
