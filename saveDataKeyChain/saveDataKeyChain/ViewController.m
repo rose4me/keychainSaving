@@ -31,7 +31,7 @@
     NSLog(@"Save");
     
 
-    [self.key setObject:[self.uName text] forKey:(__bridge id)kSecAttrAccount];
+    [self.key setObject:[self.userName text] forKey:(__bridge id)kSecAttrAccount];
     [self.key setObject:[self.pwd text]  forKey:(__bridge id)kSecValueData];
     
     

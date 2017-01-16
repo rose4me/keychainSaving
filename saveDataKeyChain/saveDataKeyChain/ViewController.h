@@ -15,7 +15,7 @@
 @property(nonatomic,strong) IBOutlet UILabel * uPwdLable;
 
 
-@property(nonatomic,strong) IBOutlet UITextField * uName;
+@property(nonatomic,strong) IBOutlet UITextField * userName;
 @property(nonatomic,strong) IBOutlet UITextField * pwd;
 @property(nonatomic,strong) IBOutlet UIButton * saveBTN;
 @property(nonatomic,strong) IBOutlet UIButton * retriveBTN;
